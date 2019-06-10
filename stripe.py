@@ -159,7 +159,7 @@ class StripeChecker():
 
                 else:
                     print(fg[0] + "┌───────[ " + credit_card + " ]──(" + str(credit_entry) + ")")
-                    print(fg[0] + "└────────── " + reset + "DEAD >>> Reason: " + str(error_msg))
+                    print(fg[0] + "└────────── " + reset + "PATAY >>> Reason: " + str(error_msg))
 
             except Exception as e:
                 print(e)
